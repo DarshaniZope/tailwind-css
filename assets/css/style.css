@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+body {
+    @apply font-family: 'Helvetica Neue', sans-serif;
+}
+
+@tailwind utilities;
+.first-dot {
+    transform: rotate(-140deg) translate(84px);
+}
+
+.second-dot {
+    transform: rotate(-116deg) translate(213px);
+}
+
+.third-dot {
+    transform: rotate(-163deg) translate(84px);
+}
+
+.four-dot {
+    transform: rotate(-190deg) translate(103px);
+}
